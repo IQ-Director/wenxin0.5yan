@@ -1,0 +1,4 @@
+erniebot==0.5.5
+gradio
+faiss-cpu
+langchain-community 
