@@ -8,7 +8,7 @@ import gradio as gr
 import os
 import shutil
 from utils import ErniebotEmbeddings
-from langchain.vectorstores.faiss import FAISS
+from langchain_community.vectorstores import FAISS
 
 token = ''
 index_path='index'

@@ -5,7 +5,9 @@ import erniebot
 from tqdm import tqdm
 from typing import List
 from langchain.schema.embeddings import Embeddings
-from langchain.vectorstores.faiss import FAISS
+from langchain_community.vectorstores import FAISS
+
+
 
 
 class ErniebotEmbeddings(Embeddings):

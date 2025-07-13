@@ -5,8 +5,7 @@ import erniebot
 
 from tqdm import tqdm
 
-from langchain.document_loaders import TextLoader
-from langchain.document_loaders import DirectoryLoader
+from langchain_community.document_loaders import TextLoader, DirectoryLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
 def load_docs(token:str,docs_dir = r'/home/aistudio/data',data_dir = r'/home/aistudio/index'):
